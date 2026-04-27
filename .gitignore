@@ -1,0 +1,54 @@
+# Model files (too large for git)
+*.pt
+*.onnx
+*.engine
+
+# Training results
+runs/
+**/runs/
+test_results/
+test_results_final/
+
+# Datasets
+dataset/
+kaggle_datasets/
+simuletic_pose_dataset/
+hf_pose_dataset/
+violence_pose_dataset/
+Violence-action-detection-1/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# API keys and sensitive data
+roboflow_api_key.txt
+*_api_key.txt
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Symlinks
+dataset
